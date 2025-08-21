@@ -5,7 +5,12 @@
 #     A=random.choice(piza)
 #     print (A,"pizza")
 # pizza()
-def taklif(num1, num2):
-    print(int(num1 + num2))
+# def taklif(num1, num2):
+#     print(int(num1 + num2))
 
-taklif(5, 8)
+# taklif(5, 8)
+
+def dama (c):
+    print
+
+    
