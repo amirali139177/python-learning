@@ -24,8 +24,32 @@
 #     masahat=(t*a)
 #     mohit=(t+a )*2
 #     return t*a
-def contdown():
-    number = input("ADADIRO mikhai")
-    shomaresh=len(number-1)
-    print(shomaresh)
-contdown()
+# def contdown():
+#     number = input("ADADIRO mikhai")
+#     shomaresh=len(number-1)
+#     print(shomaresh)
+# contdown()
+
+# def countdown(adad):
+#     for i in range(adad - 1):
+#         print(i)
+
+# countdown(10)
+
+
+# def countdown(number):
+#     for i in range(number, 0, -1):
+#         print(i)
+#     print("شمارش تمام شد!")
+# countdown()
+
+def countdown(number):
+    for i in range(number, 0, -1):
+        print(i)
+    print("boom")
+user_input = input("adad bego ")
+try:
+    number = int(user_input)
+    countdown(number)
+except ValueError:
+    print("adad bego")
