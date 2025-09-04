@@ -56,10 +56,10 @@
 
 import turtle
 pen =turtle.Turtle()
-def moraba():
+def moraba(andaze):
     for i in range(4):
-      pen.forward(50)  
+      pen.forward(andaze)  
       pen.right(90)
       print()
-moraba()
+moraba(int(input("andaze bego:")) )
 turtle.done()
