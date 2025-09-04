@@ -43,13 +43,23 @@
 #     print("شمارش تمام شد!")
 # countdown()
 
-def countdown(number):
-    for i in range(number, 0, -1):
-        print(i)
-    print("boom")
-user_input = input("adad bego ")
-try:
-    number = int(user_input)
-    countdown(number)
-except ValueError:
-    print("adad bego")
+# def countdown(number):
+#     for i in range(number, 0, -1):
+#         print(i)
+#     print("boom")
+# user_input = input("adad bego ")
+# try:
+#     number = int(user_input)
+#     countdown(number)
+# except ValueError:
+#     print("adad bego")
+
+import turtle
+pen =turtle.Turtle()
+def moraba():
+    for i in range(4):
+      pen.forward(50)  
+      pen.right(90)
+      print()
+moraba()
+turtle.done()
