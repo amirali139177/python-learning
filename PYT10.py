@@ -54,12 +54,18 @@
 # except ValueError:
 #     print("adad bego")
 
-import turtle
-pen =turtle.Turtle()
-def moraba(andaze):
-    for i in range(4):
-      pen.forward(andaze)  
-      pen.right(90)
-      print()
-moraba(int(input("andaze bego:")) )
-turtle.done()
+# import turtle
+# pen =turtle.Turtle()
+# def moraba(andaze):
+#     for i in range(4):
+#       pen.forward(andaze)  
+#       pen.right(90)
+#       print()
+# moraba(int(input("andaze bego:")) )
+# turtle.done()
+import random 
+def foodchoice():
+    fud=["pizza" , "pasta" , "spaghetti" , "sandwich"]
+    pick = random.choice(fud)
+    print(pick)
+foodchoice(input("sedam kon"))
