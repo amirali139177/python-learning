@@ -68,4 +68,4 @@ def foodchoice():
     fud=["pizza" , "pasta" , "spaghetti" , "sandwich"]
     pick = random.choice(fud)
     print(pick)
-foodchoice(input("sedam kon"))
+foodchoice("salam")
